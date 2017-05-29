@@ -5,23 +5,28 @@
 html,body {
   margin: 0;
   padding: 0;
-  width: 99%;
-  height: 99%;
+  width: 98%;
+  height: 98%;
+  background: -webkit-linear-gradient(top, rgba(229,229,229,1) 1%,rgba(255,255,255,1) 46%,rgba(229,229,229,1) 100%);
 }
 
 .main {
   text-align: center;
-  width: 53%;
-  min-height: 85%;
+  width: 60%;
+  min-height: 90%;
   margin-left: auto;
-  
-  background-color: #999;
+  margin-right: auto;
+  border-radius: 2%;
+  background-color: #333;
 }
 
 .title {
   font-size: 2em;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: white;
-  opacity: .3;
+  background-color: #333;
+  border-top-right-radius:15px;
+  border-top-left-radius: 15px;
+  color: #fff;
+
 }
