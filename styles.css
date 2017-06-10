@@ -5,16 +5,12 @@
 html,body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
   background: -webkit-linear-gradient(top, rgba(229,229,229,1) 1%,rgba(255,255,255,1) 46%,rgba(229,229,229,1) 100%);
 }
 
 .container{
-  min-height: 100vh;
-  display:flex;
-  flex-direction: column;
 }
+
 .navigation {
   background-color: #333333;
   min-height: 3em;
@@ -39,57 +35,9 @@ html,body {
 }
 
 .content {
-  flex: 4;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+
 }
 
 .footer{
-  width: 100%;
-  flex:2;
-  display: flex;
-  flex-direction: row;
-}
 
-.box1 {
-  opacity: .7;
-  background-color: #d8732c;
-  flex:1;
-}
-
-
-.box3 {
-  background-color: #0497d0;
-  opacity: .7;
-  flex:2;
-}
-
-.box4 {
-  flex: 2;
-}
-
-.box5 {
-  flex: 1;
-  background-color: yellow;
-}
-
-.box1, .box2, .box3, .box4, .box5 {
-  opacity: .375;
-}
-
-.laptop {
-  float: left;
-  position: fixed;
-  left: 1em;
-  right: 1em;
-  top: 1em;
-  bottom: 1em;
-  z-index: 100000;
-}
-
-.text {
-  float: center;
-  position: fixed;
-  top: 55em;
 }
