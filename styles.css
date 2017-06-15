@@ -65,6 +65,10 @@ html,body {
   background-color: #5c7ee5;
 }
 
+.body {
+  width: 100%;
+}
+
 h1,h2,h3,h4, p, .swift, .web, .python {
   margin-left: 5%;
 }
